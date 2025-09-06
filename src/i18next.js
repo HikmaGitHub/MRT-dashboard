@@ -10,7 +10,7 @@ i18n.use(initReactI18next).init({
           vehicle: "Vehicle",
           location: "Location",
           status: "Status",
-          lastUpdated: "Last Updated"
+          lastUpdated: "Last Updated",
         },
         filters: {
           status: "Driver status",
@@ -22,26 +22,28 @@ i18n.use(initReactI18next).init({
           date: "Date",
           last7: "Last 7 days",
           last30: "Last 30 days",
-          thisQuarter: "This quarter",
-          lastNYears: "Last {{n}} years"
+          last5Years: "Last 5 Years",
+          currentQuarter: "Current Quarter",
+          last1Year: "Last 1 Year",
+          more: "More filters"
         },
         export: {
           csv: "CSV",
           xlsx: "Excel",
           pdf: "PDF",
           quickbooks: "QuickBooks (JSON)",
-          fmcsa: "FMCSA (PDF)"
+          fmcsa: "FMCSA (PDF)",
         },
         buttons: {
           back: "Back",
-          export: "Export"
-        }
-      }
-    }
+          export: "Export",
+        },
+      },
+    },
   },
-  lng: 'en',
-  fallbackLng: 'en',
-  interpolation: { escapeValue: false }
+  lng: "en",
+  fallbackLng: "en",
+  interpolation: { escapeValue: false },
 });
 
 export default i18n;

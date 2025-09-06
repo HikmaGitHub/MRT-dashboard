@@ -22,7 +22,10 @@ export const filterConfig = [
       { value: "inactive", labelKey: "filters.inactive" },
     ],
     defaultValue: "all",
-    apply: (row, value) => (value === "all" ? true : row.status === value),
+    apply: (row, value) =>
+      value === "all"
+        ? true
+        : row.status?.toLowerCase() === value.toLowerCase(),
   },
   {
     key: "dateRange",
