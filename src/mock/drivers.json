@@ -1,0 +1,13 @@
+[
+  { "id": 1, "driverName": "John Doe", "status": "Active", "location": "New York", "date": "2025-08-01" },
+  { "id": 2, "driverName": "Jane Smith", "status": "Inactive", "location": "Los Angeles", "date": "2025-07-15" },
+  {
+    "id": 3,
+    "driverName": "Mike Lee",
+    "status": "Active",
+    "location": "Chicago",
+    "date": "2025-06-20"
+  },
+    { "id": 4, "driverName": "Some One", "status": "Active", "location": "Chicago", "date": "2025-06-20" }
+
+]
